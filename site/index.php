@@ -92,26 +92,30 @@
                         </div>
                       </div>
                     </div><a class="rd-navbar-basket rd-navbar-basket-mobile fl-bigmug-line-shopping198" href="#"><span>2</span></a>
-                    <!-- RD Navbar Search-->
+                    <!-- Menu de Pesquisa -->
                     <div class="rd-navbar-search">
                       <button class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search"><span></span></button>
                       <form class="rd-search" action="#">
                         <div class="form-wrap">
-                          <label class="form-label" for="rd-navbar-search-form-input">Search...</label>
+                          <label class="form-label" for="rd-navbar-search-form-input">Procurar...</label>
                           <input class="rd-navbar-search-form-input form-input" id="rd-navbar-search-form-input" type="text" name="search">
                           <button class="rd-search-form-submit fl-bigmug-line-search74" type="submit"></button>
                         </div>
                       </form>
                     </div>
-                    <!-- RD Navbar Nav-->
+                    <!-- RD MENU de Navegação-->
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                      <li class="rd-nav-item active">
+                        <a class="rd-nav-link" href="index.php">Inicio</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">About Us</a>
+                      <li class="rd-nav-item">
+                        <a class="rd-nav-link" href="sobre.php">Sobre</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html">Typography</a>
+                      <li class="rd-nav-item">
+                        <a class="rd-nav-link" href="login.php">Login</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.html">Contact Us</a>
+                      <li class="rd-nav-item">
+                        <a class="rd-nav-link" href="contatos.php">Contatos</a>
                       </li>
                     </ul>
                   </div>
@@ -124,7 +128,7 @@
                 </div>
                 <div class="rd-navbar-project rd-navbar-modern-project">
                   <div class="rd-navbar-project-modern-header">
-                    <h4 class="rd-navbar-project-modern-title">Get in Touch</h4>
+                    <h4 class="rd-navbar-project-modern-title">Contate-nos</h4>
                     <div class="rd-navbar-project-hamburger" data-multitoggle=".rd-navbar-main" data-multitoggle-blur=".rd-navbar-wrap" data-multitoggle-isolate>
                       <div class="project-close"><span></span><span></span></div>
                     </div>

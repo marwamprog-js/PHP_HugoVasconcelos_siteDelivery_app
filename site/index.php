@@ -56,42 +56,52 @@
 <section class="section section-md bg-default section-top-image">
     <div class="container">
         <div class="row row-30 justify-content-center">
+            
             <div class="col-sm-6 col-lg-4 wow fadeInRight" data-wow-delay="0s">
                 <article class="box-icon-ruby">
                     <div class="unit box-icon-ruby-body flex-column flex-md-row text-md-left flex-lg-column align-items-center text-lg-center flex-xl-row text-xl-left">
                         <div class="unit-left">
-                            <div class="box-icon-ruby-icon linearicons-leaf"></div>
+                            <div class="box-icon-ruby-icon linearicons-mustache"></div>
                         </div>
                         <div class="unit-body">
-                            <h4 class="box-icon-ruby-title"><a href="#">Natural &amp; Organic</a></h4>
+                            <h4 class="box-icon-ruby-title">
+                                <a href="#">Sanduíches</a>
+                            </h4>
                         </div>
                     </div>
                 </article>
             </div>
+            
             <div class="col-sm-6 col-lg-4 wow fadeInRight" data-wow-delay=".1s">
                 <article class="box-icon-ruby">
                     <div class="unit box-icon-ruby-body flex-column flex-md-row text-md-left flex-lg-column align-items-center text-lg-center flex-xl-row text-xl-left">
                         <div class="unit-left">
-                            <div class="box-icon-ruby-icon linearicons-shovel"></div>
+                            <div class="box-icon-ruby-icon linearicons-dinner"></div>
                         </div>
                         <div class="unit-body">
-                            <h4 class="box-icon-ruby-title"><a href="#">Best Equipment</a></h4>
+                            <h4 class="box-icon-ruby-title">
+                                <a href="#">Massas e Pizzas</a>
+                            </h4>
                         </div>
                     </div>
                 </article>
             </div>
+
             <div class="col-sm-6 col-lg-4 wow fadeInRight" data-wow-delay=".2s">
                 <article class="box-icon-ruby">
                     <div class="unit box-icon-ruby-body flex-column flex-md-row text-md-left flex-lg-column align-items-center text-lg-center flex-xl-row text-xl-left">
                         <div class="unit-left">
-                            <div class="box-icon-ruby-icon linearicons-sun"></div>
+                            <div class="box-icon-ruby-icon linearicons-coffee-cup"></div>
                         </div>
                         <div class="unit-body">
-                            <h4 class="box-icon-ruby-title"><a href="#">Dedicated Team</a></h4>
+                            <h4 class="box-icon-ruby-title">
+                                <a href="#">Drinks e Bebidas</a>
+                            </h4>
                         </div>
                     </div>
                 </article>
             </div>
+
         </div>
     </div>
 </section>
@@ -100,26 +110,26 @@
 <section class="section section-md bg-default">
     <div class="container">
         <div class="row row-40 justify-content-center">
+            
             <div class="col-sm-8 col-md-7 col-lg-6 wow fadeInLeft" data-wow-delay="0s">
-                <div class="product-banner"><img src="images/home-banner-1-570x715.jpg" alt="" width="570" height="715" />
-                    <div class="product-banner-content">
-                        <div class="product-banner-inner" style="background-image: url(images/bg-brush.png)">
-                            <h3 class="text-secondary-1">organic</h3>
-                            <h2 class="text-primary">Vegetables</h2>
-                        </div>
-                    </div>
+                <div class="product-banner"><img src="images/banner/pizza.jpg" alt="" width="570" height="715" />
                 </div>
             </div>
+            
             <div class="col-md-5 col-lg-6">
                 <div class="row row-30 justify-content-center">
-                    <div class="col-sm-6 col-md-12 col-lg-6">
+                    
+                <div class="col-sm-6 col-md-12 col-lg-6">
                         <div class="oh-desktop">
                             <!-- Product-->
                             <article class="product product-2 box-ordered-item wow slideInRight" data-wow-delay="0s">
                                 <div class="unit flex-row flex-lg-column">
                                     <div class="unit-left">
-                                        <div class="product-figure"><img src="images/product-5-270x280.png" alt="" width="270" height="280" />
-                                            <div class="product-button"><a class="button button-md button-white button-ujarak" href="#">Add to cart</a></div>
+                                        <div class="product-figure">
+                                            <img src="images/product-5-270x280.png" alt="" width="270" height="280" />
+                                            <div class="product-button">
+                                                <a class="button button-md button-white button-ujarak" href="#">Add to cart</a>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="unit-body">
@@ -133,6 +143,7 @@
                             </article>
                         </div>
                     </div>
+
                     <div class="col-sm-6 col-md-12 col-lg-6">
                         <div class="oh-desktop">
                             <!-- Product-->
@@ -153,6 +164,7 @@
                             </article>
                         </div>
                     </div>
+
                     <div class="col-sm-6 col-md-12 col-lg-6">
                         <div class="oh-desktop">
                             <!-- Product-->
@@ -173,6 +185,7 @@
                             </article>
                         </div>
                     </div>
+
                     <div class="col-sm-6 col-md-12 col-lg-6">
                         <div class="oh-desktop">
                             <!-- Product-->
@@ -192,6 +205,7 @@
                                 </div>
                             </article>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -204,8 +218,17 @@
     <div class="parallax-container" data-parallax-img="images/bg-parallax-1.jpg">
         <div class="parallax-content section-xl section-inset-custom-1 context-dark bg-overlay-40">
             <div class="container">
-                <h2 class="oh font-weight-normal"><span class="d-inline-block wow slideInDown" data-wow-delay="0s">Our Approach</span></h2>
-                <p class="oh big text-width-large"><span class="d-inline-block wow slideInUp" data-wow-delay=".2s">Our farm strictly combines the traditions of organic farming with the latest innovations to make our products healthy and safe for the clients.</span></p><a class="button button-primary button-icon button-icon-left button-ujarak wow fadeInUp" href="https://www.youtube.com/watch?v=-AhmuMqZB0s" data-lightgallery="item" data-wow-delay=".1s"><span class="icon mdi mdi-play"></span>View presentation</a>
+                <h2 class="oh font-weight-normal">
+                    <span class="d-inline-block wow slideInDown" data-wow-delay="0s">Our Approach</span>
+                </h2>
+                <p class="oh big text-width-large">
+                    <span class="d-inline-block wow slideInUp" data-wow-delay=".2s">Our farm strictly combines the traditions of organic farming with the latest innovations to make our products healthy and safe for the clients.</span>
+                </p>
+                
+                <a class="button button-primary button-icon button-icon-left button-ujarak wow fadeInUp" href="https://www.youtube.com/watch?v=-AhmuMqZB0s" data-lightgallery="item" data-wow-delay=".1s">
+                    <span class="icon mdi mdi-play"></span>
+                    View presentation
+                </a>
             </div>
         </div>
     </div>

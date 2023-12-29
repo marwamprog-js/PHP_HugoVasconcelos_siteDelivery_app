@@ -2,12 +2,15 @@
 <html class="wide wow-animation" lang="en">
 
 <head>
-    <title>Herber</title>
+    <title>Buguer Freitas</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="description" content="Lanches BH, Lanches em Venda Nova, Comprar sanduíche Venda Nova" />
+    <meta name="author" content="Buguer Freitas" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon-nova.ico" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,400,500">
     <link rel="stylesheet" href="css/bootstrap.css">

@@ -20,12 +20,18 @@
 </head>
 
 <body>
+    
     <div class="preloader">
         <div class="preloader-body">
-            <div class="cssload-container"><span></span><span></span><span></span><span></span>
+            <div class="cssload-container">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </div>
+    
     <div class="page">
         <!-- Page Header-->
         <header class="section page-header">
@@ -107,7 +113,7 @@
                                     </div>
                                     <!-- RD MENU de Navegação-->
                                     <ul class="rd-navbar-nav">
-                                        <li class="rd-nav-item active">
+                                        <li class="rd-nav-item"> <!-- active class -->
                                             <a class="rd-nav-link" href="index.php">Inicio</a>
                                         </li>
                                         <li class="rd-nav-item">

@@ -11,7 +11,7 @@
                         <div class="col-md-10 col-xxl-6">
                             <div class="slider-modern-box">
                                 <h1 class="slider-modern-title">
-                                    <span data-caption-animate="slideInDown" data-caption-delay="0">Burguer Freitas</span>
+                                    <span data-caption-animate="slideInDown" data-caption-delay="0">Sanduíches</span>
                                 </h1>
                                 <p data-caption-animate="fadeInRight" data-caption-delay="400">Venha conhecer nossos Hamburgues artesanais, os melhores da região.</p>
                                 <div class="oh button-wrap">
@@ -24,31 +24,19 @@
             </div>
         </div>
 
-        <div class="swiper-slide context-dark" data-slide-bg="images/banner/02.jpg">
+        <div class="swiper-slide context-dark" data-slide-bg="images/banner/massas_01.jpg">
             <div class="swiper-slide-caption">
                 <div class="container">
                     <div class="row justify-content-center justify-content-xxl-start">
                         <div class="col-md-10 col-xxl-6">
                             <div class="slider-modern-box">
-                                <h1 class="slider-modern-title"><span data-caption-animate="slideInLeft" data-caption-delay="0">Quality Control</span></h1>
-                                <p data-caption-animate="fadeInRight" data-caption-delay="400">We control the process of farming at Herber to deliver the best organic products to our customers throughout the state.</p>
-                                <div class="oh button-wrap"><a class="button button-primary button-ujarak" href="about-us.html" data-caption-animate="slideInLeft" data-caption-delay="400">Read more</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="swiper-slide" data-slide-bg="images/banner/01.jpg">
-            <div class="swiper-slide-caption">
-                <div class="container">
-                    <div class="row justify-content-center justify-content-xxl-start">
-                        <div class="col-md-10 col-xxl-6">
-                            <div class="slider-modern-box">
-                                <h1 class="slider-modern-title"><span data-caption-animate="slideInDown" data-caption-delay="0">Eco-Friendly</span></h1>
-                                <p data-caption-animate="fadeInRight" data-caption-delay="400">As the leading organic farm, we maintain an eco-friendly policy of growing and selling healthy food without any additives.</p>
-                                <div class="oh button-wrap"><a class="button button-primary button-ujarak" href="about-us.html" data-caption-animate="slideInUp" data-caption-delay="400">Read more</a></div>
+                                <h1 class="slider-modern-title">
+                                    <span data-caption-animate="slideInLeft" data-caption-delay="0">Massas</span>
+                                </h1>
+                                <p data-caption-animate="fadeInRight" data-caption-delay="400">Experimente nossas pizzas, temos vários sabores, você também pode recheá-las como preferir!!!</p>
+                                <div class="oh button-wrap">
+                                    <a class="button button-primary button-ujarak" href="about-us.html" data-caption-animate="slideInLeft" data-caption-delay="400">Veja Mais</a>
+                                </div>
                             </div>
                         </div>
                     </div>

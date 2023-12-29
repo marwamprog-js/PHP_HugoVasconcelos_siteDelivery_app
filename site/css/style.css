@@ -9519,6 +9519,9 @@ html.rd-navbar-fixed-linked .page {
 
 .swiper-slider-modern .slider-modern-box {
 	max-width: 570px;
+	background: #0006;
+	padding: 20px;
+	border-radius: 6px;
 }
 
 .swiper-slider-modern .slider-modern-title {

@@ -1,6 +1,6 @@
 <?php include_once("cabecalho.php"); ?>
 
-<!-- Swiper-->
+<!-- Swiper - Aula 18 -->
 <section class="section swiper-container swiper-slider swiper-slider-modern" data-loop="true" data-autoplay="5000" data-simulate-touch="true" data-nav="true" data-slide-effect="fade">
     <div class="swiper-wrapper text-left">
         
@@ -215,58 +215,22 @@
 
 <!-- Section CTA 2-->
 <section class="section text-center">
-    <div class="parallax-container" data-parallax-img="images/bg-parallax-1.jpg">
+    <div class="parallax-container" data-parallax-img="images/banner/promocao.jpg">
         <div class="parallax-content section-xl section-inset-custom-1 context-dark bg-overlay-40">
             <div class="container">
-                <h2 class="oh font-weight-normal">
-                    <span class="d-inline-block wow slideInDown" data-wow-delay="0s">Our Approach</span>
-                </h2>
-                <p class="oh big text-width-large">
-                    <span class="d-inline-block wow slideInUp" data-wow-delay=".2s">Our farm strictly combines the traditions of organic farming with the latest innovations to make our products healthy and safe for the clients.</span>
-                </p>
-                
-                <a class="button button-primary button-icon button-icon-left button-ujarak wow fadeInUp" href="https://www.youtube.com/watch?v=-AhmuMqZB0s" data-lightgallery="item" data-wow-delay=".1s">
-                    <span class="icon mdi mdi-play"></span>
-                    View presentation
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Team of professionals-->
-<section class="section section-md bg-default">
-    <div class="container">
-        <div class="oh">
-            <h2 class="wow slideInUp" data-wow-delay="0s">Our Team</h2>
-        </div>
-        <div class="row row-30 justify-content-center">
-            <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInRight" data-wow-delay="0s">
-                <!-- Team Classic-->
-                <article class="team-classic"><a class="team-classic-figure" href="#"><img src="images/team-1-370x406.jpg" alt="" width="370" height="406" /></a>
-                    <div class="team-classic-caption">
-                        <h5 class="team-classic-name"><a href="#">Ryan Wilson</a></h5>
-                        <p class="team-classic-status">Founder</p>
-                    </div>
-                </article>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInRight" data-wow-delay=".1s">
-                <!-- Team Classic-->
-                <article class="team-classic"><a class="team-classic-figure" href="#"><img src="images/team-2-370x406.jpg" alt="" width="370" height="406" /></a>
-                    <div class="team-classic-caption">
-                        <h5 class="team-classic-name"><a href="#">Jill Peterson</a></h5>
-                        <p class="team-classic-status">Garden Manager</p>
-                    </div>
-                </article>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInRight" data-wow-delay=".2s">
-                <!-- Team Classic-->
-                <article class="team-classic"><a class="team-classic-figure" href="#"><img src="images/team-3-370x406.jpg" alt="" width="370" height="406" /></a>
-                    <div class="team-classic-caption">
-                        <h5 class="team-classic-name"><a href="#">Sam Robinson</a></h5>
-                        <p class="team-classic-status">Farmyard Coordinator</p>
-                    </div>
-                </article>
+                <div id="cta2-container">
+                    <h2 class="oh font-weight-normal">
+                        <span class="d-inline-block wow slideInDown" data-wow-delay="0s">Promoções</span>
+                    </h2>
+                    <p class="oh big text-width-large">
+                        <span class="d-inline-block wow slideInUp" data-wow-delay=".2s">Veja as nossas outras promoções clicando no botão abaixo, temos várias promoções com diversos produtos.</span>
+                    </p>
+                    
+                    <a class="button button-primary button-icon button-icon-left button-ujarak wow fadeInUp" href="https://www.youtube.com/watch?v=-AhmuMqZB0s" data-lightgallery="item" data-wow-delay=".1s">
+                        <span class="icon mdi mdi-play"></span>
+                        Todas as Promoções
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -280,121 +244,174 @@
                 <div class="row row-lg row-50 justify-content-center border-classic border-classic-big">
                     <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay="0s">
                         <div class="counter-creative">
-                            <div class="counter-creative-number"><span class="counter">12</span><span class="icon counter-creative-icon fl-bigmug-line-trophy55"></span>
+                            <div class="counter-creative-number">
+                                <span class="counter">12</span>
+                                <span class="icon counter-creative-icon fl-bigmug-line-trophy55"></span>
                             </div>
-                            <h6 class="counter-creative-title">Awards</h6>
+                            <h6 class="counter-creative-title">Premiações</h6>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay=".1s">
                         <div class="counter-creative">
-                            <div class="counter-creative-number"><span class="counter">2</span><span class="symbol">k</span><span class="icon counter-creative-icon fl-bigmug-line-up104"></span>
+                            <div class="counter-creative-number">
+                                <span class="counter">2</span>
+                                <span class="symbol">k</span>
+                                <span class="icon counter-creative-icon fl-bigmug-line-up104"></span>
                             </div>
-                            <h6 class="counter-creative-title">Products</h6>
+                            <h6 class="counter-creative-title">Produtos</h6>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay=".2s">
                         <div class="counter-creative">
-                            <div class="counter-creative-number"><span class="counter">679</span><span class="icon counter-creative-icon fl-bigmug-line-sun81"></span>
+                            <div class="counter-creative-number">
+                                <span class="counter">679</span>
+                                <span class="icon counter-creative-icon fl-bigmug-line-sun81"></span>
                             </div>
-                            <h6 class="counter-creative-title">Happy Clients</h6>
+                            <h6 class="counter-creative-title">Clientes Satisfeitos</h6>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay=".3s">
                         <div class="counter-creative">
-                            <div class="counter-creative-number"><span class="counter">13</span><span class="icon counter-creative-icon fl-bigmug-line-user143"></span>
+                            <div class="counter-creative-number">
+                                <span class="counter">13</span>
+                                <span class="icon counter-creative-icon fl-bigmug-line-user143"></span>
                             </div>
-                            <h6 class="counter-creative-title">Farmers</h6>
+                            <h6 class="counter-creative-title">Lojas</h6>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 </section>
+
 <!-- Improve your interior with deco-->
 <section class="section section-md bg-default section-top-image">
     <div class="container">
         <div class="oh h2-title">
-            <h2 class="wow slideInUp" data-wow-delay="0s">Our Gallery</h2>
+            <h2 class="wow slideInUp" data-wow-delay="0s">Alguns Produtos</h2>
         </div>
         <div class="row row-30" data-lightgallery="group">
+            
             <div class="col-sm-6 col-lg-4">
                 <div class="oh-desktop">
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInLeft" data-wow-delay="0s">
-                        <div class="thumbnail-mary-figure"><img src="images/grid-gallery-1-370x303.jpg" alt="" width="370" height="303" />
+                        <div class="thumbnail-mary-figure">
+                            <img src="images/galeria/01-tumb.jpg" alt="" width="370" height="303" />
                         </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-1-1200x800.jpg" data-lightgallery="item"><img src="images/grid-gallery-1-370x303.jpg" alt="" width="370" height="303" /></a>
-                            <h4 class="thumbnail-mary-title"><a href="#">Watermelons</a></h4>
+                        <div class="thumbnail-mary-caption">
+                            <a class="icon fl-bigmug-line-zoom60" href="images/galeria/01.jpg" data-lightgallery="item">
+                                <img src="images/galeria/01-tumb.jpg" alt="" width="370" height="303" />
+                            </a>
+                            <h4 class="thumbnail-mary-title">
+                                <a href="#">Sanduíches</a>
+                            </h4>
                         </div>
                     </article>
                 </div>
             </div>
+
             <div class="col-sm-6 col-lg-4">
                 <div class="oh-desktop">
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInUp" data-wow-delay=".1s">
-                        <div class="thumbnail-mary-figure"><img src="images/grid-gallery-2-370x303.jpg" alt="" width="370" height="303" />
+                        <div class="thumbnail-mary-figure">
+                            <img src="images/galeria/02-tumb.jpg" alt="" width="370" height="303" />
                         </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-2-1200x800.jpg" data-lightgallery="item"><img src="images/grid-gallery-2-370x303.jpg" alt="" width="370" height="303" /></a>
-                            <h4 class="thumbnail-mary-title"><a href="#">Grapes</a></h4>
+                        <div class="thumbnail-mary-caption">
+                            <a class="icon fl-bigmug-line-zoom60" href="images/galeria/02.jpg" data-lightgallery="item">
+                                <img src="images/galeria/02-tumb.jpg" alt="" width="370" height="303" />
+                            </a>
+                            <h4 class="thumbnail-mary-title">
+                                <a href="#">Artesanais</a>                            
+                            </h4>
                         </div>
                     </article>
                 </div>
             </div>
+
             <div class="col-sm-6 col-lg-4">
                 <div class="oh-desktop">
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInRight" data-wow-delay=".0s">
-                        <div class="thumbnail-mary-figure"><img src="images/grid-gallery-3-370x303.jpg" alt="" width="370" height="303" />
+                        <div class="thumbnail-mary-figure">
+                            <img src="images/galeria/03-tumb.jpg" alt="" width="370" height="303" />
                         </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-3-800x1200.jpg" data-lightgallery="item"><img src="images/grid-gallery-3-370x303.jpg" alt="" width="370" height="303" /></a>
-                            <h4 class="thumbnail-mary-title"><a href="#">Mandarin Oranges</a></h4>
+                        <div class="thumbnail-mary-caption">
+                            <a class="icon fl-bigmug-line-zoom60" href="images/galeria/03.jpg" data-lightgallery="item">
+                                <img src="images/galeria/03-tumb.jpg" alt="" width="370" height="303" />
+                            </a>
+                            <h4 class="thumbnail-mary-title">
+                                <a href="#">Drinks e Bebidas</a>
+                            </h4>
                         </div>
                     </article>
                 </div>
             </div>
+
             <div class="col-sm-6 col-lg-4">
                 <div class="oh-desktop">
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInUp" data-wow-delay=".1s">
-                        <div class="thumbnail-mary-figure"><img src="images/grid-gallery-4-370x303.jpg" alt="" width="370" height="303" />
+                        <div class="thumbnail-mary-figure">
+                            <img src="images/galeria/04-tumb.jpg" alt="" width="370" height="303" />
                         </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-4-800x1200.jpg" data-lightgallery="item"><img src="images/grid-gallery-4-370x303.jpg" alt="" width="370" height="303" /></a>
-                            <h4 class="thumbnail-mary-title"><a href="#">Lemons</a></h4>
+                        <div class="thumbnail-mary-caption">
+                            <a class="icon fl-bigmug-line-zoom60" href="images/galeria/04.jpg" data-lightgallery="item">
+                                <img src="images/galeria/04-tumb.jpg" alt="" width="370" height="303" />
+                            </a>
+                            <h4 class="thumbnail-mary-title">
+                                <a href="#">Açaí</a>
+                            </h4>
                         </div>
                     </article>
                 </div>
             </div>
+
             <div class="col-sm-6 col-lg-4">
                 <div class="oh-desktop">
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInLeft" data-wow-delay="0s">
-                        <div class="thumbnail-mary-figure"><img src="images/grid-gallery-5-370x303.jpg" alt="" width="370" height="303" />
+                        <div class="thumbnail-mary-figure">
+                            <img src="images/galeria/05-tumb.jpg" alt="" width="370" height="303" />
                         </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-5-800x1200.jpg" data-lightgallery="item"><img src="images/grid-gallery-5-370x303.jpg" alt="" width="370" height="303" /></a>
-                            <h4 class="thumbnail-mary-title"><a href="#">Organic Food</a></h4>
+                        <div class="thumbnail-mary-caption">
+                            <a class="icon fl-bigmug-line-zoom60" href="images/galeria/05.jpg" data-lightgallery="item">
+                                <img src="images/galeria/05-tumb.jpg" alt="" width="370" height="303" />
+                            </a>
+                            <h4 class="thumbnail-mary-title">
+                                <a href="#">Pizzas</a>
+                            </h4>
                         </div>
                     </article>
                 </div>
             </div>
+
             <div class="col-sm-6 col-lg-4">
                 <div class="oh-desktop">
                     <!-- Thumbnail Classic-->
                     <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInDown" data-wow-delay=".1s">
-                        <div class="thumbnail-mary-figure"><img src="images/grid-gallery-6-370x303.jpg" alt="" width="370" height="303" />
+                        <div class="thumbnail-mary-figure">
+                            <img src="images/galeria/06-tumb.jpg" alt="" width="370" height="303" />
                         </div>
-                        <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/gallery-original-6-1200x800.jpg" data-lightgallery="item"><img src="images/grid-gallery-6-370x303.jpg" alt="" width="370" height="303" /></a>
-                            <h4 class="thumbnail-mary-title"><a href="#">Salad</a></h4>
+                        <div class="thumbnail-mary-caption">
+                            <a class="icon fl-bigmug-line-zoom60" href="images/galeria/06.jpg" data-lightgallery="item">
+                                <img src="images/galeria/06-tumb.jpg" alt="" width="370" height="303" />
+                            </a>
+                            <h4 class="thumbnail-mary-title">
+                                <a href="#">Vinhos</a>
+                            </h4>
                         </div>
                     </article>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
-<a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a>
+
+
 <!-- Page Footer-->
 <footer class="section footer-variant-2 footer-modern context-dark section-top-image section-top-image-dark">
     <div class="footer-variant-2-content">

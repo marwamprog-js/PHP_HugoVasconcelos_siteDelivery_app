@@ -65,8 +65,9 @@
                     <div class="box-contacts-body">
                         <div class="box-contacts-icon fl-bigmug-line-cellphone55"></div>
                         <div class="box-contacts-decor"></div>
-                        <p class="box-contacts-link"><a href="tel:#">+1 323-913-4688</a></p>
-                        <p class="box-contacts-link"><a href="tel:#">+1 323-888-4554</a></p>
+                        <p class="box-contacts-link">
+                            <a href="http://api.whatsapp.com/send?1=pt_BR&phone=553199999-9999">31 99999-9999</a>
+                        </p>
                     </div>
                 </article>
             </div>
@@ -75,7 +76,9 @@
                     <div class="box-contacts-body">
                         <div class="box-contacts-icon fl-bigmug-line-up104"></div>
                         <div class="box-contacts-decor"></div>
-                        <p class="box-contacts-link"><a href="#">4730 Crystal Springs Dr, Los Angeles, CA 90027</a></p>
+                        <p class="box-contacts-link">
+                            <a href="#">Rua 50, Bairro Santa Efigênia, Belo Horizonte-MG</a>
+                        </p>
                     </div>
                 </article>
             </div>
@@ -84,8 +87,9 @@
                     <div class="box-contacts-body">
                         <div class="box-contacts-icon fl-bigmug-line-chat55"></div>
                         <div class="box-contacts-decor"></div>
-                        <p class="box-contacts-link"><a href="mailto:#">mail@demolink.org</a></p>
-                        <p class="box-contacts-link"><a href="mailto:#">info@demolink.org</a></p>
+                        <p class="box-contacts-link">
+                            <a href="mailto:#">contatos@delivery.com</a>
+                        </p>
                     </div>
                 </article>
             </div>

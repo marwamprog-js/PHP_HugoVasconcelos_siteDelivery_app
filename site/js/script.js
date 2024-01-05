@@ -923,13 +923,13 @@
 		if (plugins.rdMailForm.length) {
 			var i, j, k,
 				msg = {
-					'MF000': 'Successfully sent!',
-					'MF001': 'Recipients are not set!',
-					'MF002': 'Form will not work locally!',
-					'MF003': 'Please, define email field in your form!',
-					'MF004': 'Please, define type of your form!',
-					'MF254': 'Something went wrong with PHPMailer!',
-					'MF255': 'Aw, snap! Something went wrong.'
+					'MF000': 'Enviado com Sucesso!',
+					'MF001': 'Destinatário não definido!',
+					'MF002': 'Erro ao enviar!',
+					'MF003': 'Favor, insira o e-mail no formulário',
+					'MF004': 'Erro ao enviar!',
+					'MF254': 'Erro ao enviar!',
+					'MF255': 'Você não pode enviar e-mail em servidor local.'
 				};
 
 			for (i = 0; i < plugins.rdMailForm.length; i++) {
@@ -997,7 +997,7 @@
 							form.addClass('form-in-process');
 
 							if (output.hasClass("snackbars")) {
-								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
+								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Enviando</span></p>');
 								output.addClass("active");
 							}
 						} else {

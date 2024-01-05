@@ -14,14 +14,14 @@
 
                         <div class="col-sm-6">
                             <div class="form-wrap">
-                                <input class="form-input" id="contact-first-name" type="text" name="name" data-constraints="@Required">
+                                <input class="form-input" id="contact-first-name" type="text" name="primeironome" data-constraints="@Required">
                                 <label class="form-label" for="contact-first-name">Primeiro Nome</label>
                             </div>
                         </div>
 
                         <div class="col-sm-6">
                             <div class="form-wrap">
-                                <input class="form-input" id="contact-last-name" type="text" name="name" data-constraints="@Required">
+                                <input class="form-input" id="contact-last-name" type="text" name="segundonome" data-constraints="@Required">
                                 <label class="form-label" for="contact-last-name">Segundo Nome</label>
                             </div>
                         </div>
@@ -35,15 +35,15 @@
 
                         <div class="col-12">
                             <div class="form-wrap">
-                                <input class="form-input" id="contact-tel" type="text" name="telefone">
-                                <label class="form-label" for="contact-tel">Whatsapp</label>
+                                <input class="form-input" id="telefone" type="text" name="telefone">
+                                <label class="form-label" for="telefone">Whatsapp</label>
                             </div>
                         </div>
 
                         <div class="col-12">
                             <div class="form-wrap">
                                 <label class="form-label" for="contact-message">Mensagem</label>
-                                <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                                <textarea class="form-input" id="contact-message" name="mensagem" data-constraints="@Required"></textarea>
                             </div>
                         </div>
 
@@ -106,6 +106,10 @@
 <!-- Javascript-->
 <script src="js/core.min.js"></script>
 <script src="js/script.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+<script src="js/mascaras.js"></script>
+
 </body>
 
 </html>

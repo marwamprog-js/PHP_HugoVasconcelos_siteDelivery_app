@@ -23,14 +23,6 @@ if(isset($_POST['email2']) and $_POST['email2'] != ''){
     <link href="css/login.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="icon" href="images/favicon-nova.ico" type="image/x-icon">
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-
-
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 
 
@@ -43,10 +35,12 @@ if(isset($_POST['email2']) and $_POST['email2'] != ''){
 
     <section class="login-block mt-4">
         <div class="container">
+            <a class="text-primary " href="index.php">Voltar ao site</a>
             <div class="row">
-                <div class="col-md-4 login-sec">
+                <div class="col-md-4 login-sec">                    
+                    
                     <h5 class="text-center mb-4">Faça seu Login</h5>
-
+                    <span class="<?php echo @$class; ?>"><?php echo @$alerta; ?></span>
 
                     <form class="login100-form validate-form" method="post" action="autenticar.php">
                         <div class="wrap-input100 validate-input">
@@ -71,12 +65,12 @@ if(isset($_POST['email2']) and $_POST['email2'] != ''){
 
 
                     </form>
-
+                   
+                    
                     <div class="copy-text">Não tem Cadastro?
-
                         <a class="text-primary" href="" data-toggle="modal" data-target="#modal-login">Cadastre-se</a>
                     </div>
-
+                    
                     <div class="text-center p-t-8 p-b-31">
                         <a class="text-danger" href="" data-toggle="modal" data-target="#modal-rec">
                             <small> Recuperar Senha? </small>
@@ -140,7 +134,7 @@ if(isset($_POST['email2']) and $_POST['email2'] != ''){
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="text-dark" for="exampleInputEmail1">CPF</label>
+                                <label class="text-dark" for="cpf">CPF</label>
                                 <input type="text" class="form-control" id="cpf" name="cpf" placeholder="CPF" required>
 
                             </div>
@@ -148,31 +142,29 @@ if(isset($_POST['email2']) and $_POST['email2'] != ''){
 
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="text-dark" for="exampleInputEmail1">Telefone</label>
+                                <label class="text-dark" for="telefone">Telefone</label>
                                 <input type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone" required>
 
                             </div>
                         </div>
                     </div>
 
-
-
                     <div class="form-group">
-                        <label class="text-dark" for="exampleInputEmail1">Email</label>
+                        <label class="text-dark" for="email">Email</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Email" required value="<?php echo @$email_rec ?>">
                     </div>
 
                     <div class="form-group">
-                        <label class="text-dark" for="exampleInputEmail1">Senha</label>
-                        <input type="text" class="form-control" id="senha" name="senha" placeholder="Senha" required>
+                        <label class="text-dark" for="senha">Senha</label>
+                        <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha" required>
                     </div>
 
 
                     <div align="center" class="" id="mensagem"></div>
 
-                
-                <button type="button" id="btn-fechar" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button name="btn-cadastro" id="btn-cadastro" class="btn btn-info">Cadastrar</button>
+
+                    <button type="button" id="btn-fechar" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button name="btn-cadastro" id="btn-cadastro" class="btn btn-info">Cadastrar</button>
 
                 </form>
 
@@ -203,8 +195,6 @@ if(isset($_POST['email2']) and $_POST['email2'] != ''){
                     </div>
 
 
-
-
                     <div align="center" class="" id="mensagem2">
                     </div>
 
@@ -225,26 +215,26 @@ if(isset($_POST['email2']) and $_POST['email2'] != ''){
 
 
 
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+<script src="js/mascaras.js"></script>
+
+
 <?php 
-
 if(isset($_POST['email2']) and $_POST['email2'] != ''){
-
- ?>
+?>
 
 <script>
 $("#modal-login").modal("show");
 </script>
 
 <?php } ?>
-
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
-
-<script src="js/mascaras.js"></script>
-
-
 
 
 <!--AJAX PARA INSERÇÃO DOS DADOS -->
@@ -263,7 +253,7 @@ $(document).ready(function() {
 
                 $('#mensagem').removeClass()
 
-                if (mensagem == 'Cadastrado com Sucesso!!') {
+                if (mensagem == 'Cadastrado com Sucesso!!!') {
 
                     $('#mensagem').addClass('text-success')
 
@@ -279,11 +269,6 @@ $(document).ready(function() {
 
                     //$('#btn-fechar').click();
                     //location.reload();
-
-
-
-
-
 
                 } else {
 

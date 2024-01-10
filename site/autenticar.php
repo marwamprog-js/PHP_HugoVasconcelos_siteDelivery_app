@@ -31,7 +31,7 @@ if($linhas > 0) {
     }
 
     if($_SESSION['nivel_usuario'] == 'Cliente') {
-        echo "<script language='javascript'>window.location='index.php';</script>";
+        echo "<script language='javascript'>window.location='painel-cliente/index.php';</script>";
         exit();
     }
 

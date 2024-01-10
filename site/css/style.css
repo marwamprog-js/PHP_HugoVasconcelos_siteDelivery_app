@@ -12276,3 +12276,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	background: #00000045;
 	padding: 20px;
 }
+
+.dados-usuario {
+	text-align: right;
+	color: #32120e;
+}

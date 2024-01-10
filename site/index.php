@@ -1,6 +1,6 @@
 <?php include_once("cabecalho.php"); ?>
 
-<!-- Swiper - Aula 46 -->
+<!-- Swiper - Aula 52 -->
 <section class="section swiper-container swiper-slider swiper-slider-modern" data-loop="true" data-autoplay="5000" data-simulate-touch="true" data-nav="true" data-slide-effect="fade">
     <div class="swiper-wrapper text-left">
         
@@ -414,6 +414,7 @@
 <?php include_once("rodape.php"); ?>
 
 </div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Global Mailform Output-->
 <div class="snackbars" id="form-output-global"></div>
 <!-- Javascript-->

@@ -1,3 +1,5 @@
+<?php @session_start(); ?>
+
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
 
@@ -16,6 +18,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    
     <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -61,6 +64,20 @@
                                         <button class="rd-navbar-basket fl-bigmug-line-shopping198" data-rd-navbar-toggle=".cart-inline"><span>2</span></button>
                                         <div class="cart-inline">
                                             <div class="cart-inline-header">
+                                                
+                                            <?php if(isset($_SESSION['nome_usuario'])) : ?>
+                                                <span class="dados-usuario">
+                                                    <p>
+                                                        <a href="#" title="Editar dados">
+                                                            <?php echo $_SESSION['nome_usuario'] ?>
+                                                        </a>
+                                                        <a href="logout.php" title="Logout">
+                                                            <img src="images/logout.png" width="20px" alt="Logout">
+                                                        </a>
+                                                    </p>
+                                                </span>
+                                            <?php endif ?>
+                                                
                                                 <h5 class="cart-inline-title">Carrinho:<span> 2</span> Produtos</h5>
                                                 <h6 class="cart-inline-title">Valor Total:<span> R$ 800,00</span></h6>
                                             </div>
@@ -123,11 +140,15 @@
                                             <a class="rd-nav-link" href="sobre.php">Sobre</a>
                                         </li>
                                         <li class="rd-nav-item">
-                                            <a class="rd-nav-link" href="login.php">Login</a>
-                                        </li>
-                                        <li class="rd-nav-item">
                                             <a class="rd-nav-link" href="contatos.php">Contatos</a>
                                         </li>
+
+                                        <?php if(!isset($_SESSION['nome_usuario'])) { ?>
+                                            <li class="rd-nav-item">
+                                                <a class="rd-nav-link" href="login.php">Login</a>
+                                            </li>
+                                        <?php } ?>
+
                                     </ul>
                                 </div>
                                 <div class="rd-navbar-project-hamburger" data-multitoggle=".rd-navbar-main" data-multitoggle-blur=".rd-navbar-wrap" data-multitoggle-isolate>

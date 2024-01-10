@@ -1,5 +1,10 @@
 <?php 
 
+@session_start();
+
+if(isset($_SESSION['nome_usuario'])) {
+    echo "<script language='javascript'>window.location='index.php';</script>";
+}
 // include_once("conexao.php");
 
 if(isset($_POST['email2']) and $_POST['email2'] != ''){
@@ -262,6 +267,7 @@ $(document).ready(function() {
                     document.getElementById('pass').value = document.getElementById('senha').value;
 
                     $('#nome').val('')
+                    $('#sobrenome').val('')
                     $('#telefone').val('')
                     $('#cpf').val('')
                     $('#email').val('')

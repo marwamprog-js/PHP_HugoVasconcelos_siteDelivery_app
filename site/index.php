@@ -1,6 +1,23 @@
-<?php include_once("cabecalho.php"); ?>
+<?php 
 
-<!-- Swiper - Aula 52 -->
+include_once("cabecalho.php"); 
+include_once("conexao.php"); 
+
+//VERIFICAR SE EXISTE UM USUÁRIO ADMINISTRADOR, CASO NÃO EXISTA, CRIAR
+  $res_usuarios = $pdo->query("SELECT * FROM usuarios WHERE nivel = 'Admin'");
+  $dados_usuarios = $res_usuarios->fetchAll(PDO::FETCH_ASSOC);
+  $total_usuarios = count($dados_usuarios);
+ 
+  var_dump($total_usuarios);
+
+  if($total_usuarios == 0){
+    $res_insert = $pdo->query("INSERT INTO usuarios (nome, sobrenome, cpf, telefone, usuario, senha, nivel) VALUES ('Administrador', 'Admin', '000.000.000-00', '3333-3333', 'admin@email.com', '123456', 'Admin')");  
+    var_dump($res_insert);
+  }
+
+?>
+
+<!-- Swiper - Aula 62 -->
 <section class="section swiper-container swiper-slider swiper-slider-modern" data-loop="true" data-autoplay="5000" data-simulate-touch="true" data-nav="true" data-slide-effect="fade">
     <div class="swiper-wrapper text-left">
         

@@ -1,4 +1,12 @@
-<?php @session_start(); ?>
+<?php 
+
+@session_start(); 
+
+if(@$_SESSION['nivel_usuario'] != "Cliente") {
+  echo "<script language='javascript'>window.location='../login.php';</script>";
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -9,6 +17,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title>Painel do Cliente</title>
+
+    <link rel="icon" href="../images/favicon-nova.ico" type="image/x-icon">
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
@@ -77,7 +87,7 @@
                             <!-- Message End -->
                         </a>
                         <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
+                        <a href="../logout.php" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
                                 <img src="../images/logout.png" alt="User Avatar" class="img-size-50 img-circle mr-3">
@@ -102,8 +112,7 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="index.php" class="brand-link">
-                <img src="../images/delivery.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light">Painel Cliente</span>
+               <span class="brand-text font-weight-light ml-4">Painel Cliente</span>
             </a>
 
             <!-- Sidebar -->
@@ -176,13 +185,14 @@
                     <div class="row">
                         <div class="col-12 col-sm-6 col-md-3">
                             <div class="info-box">
-                                <span class="info-box-icon bg-info elevation-1"><i class="fas fa-cog"></i></span>
+                                <span class="info-box-icon bg-info elevation-1">
+                                  <i class="fas fa-cog"></i>
+                                </span>
 
                                 <div class="info-box-content">
-                                    <span class="info-box-text">CPU Traffic</span>
+                                    <span class="info-box-text">Pedidos</span>
                                     <span class="info-box-number">
                                         10
-                                        <small>%</small>
                                     </span>
                                 </div>
                                 <!-- /.info-box-content -->
@@ -192,11 +202,13 @@
                         <!-- /.col -->
                         <div class="col-12 col-sm-6 col-md-3">
                             <div class="info-box mb-3">
-                                <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-thumbs-up"></i></span>
+                                <span class="info-box-icon bg-success elevation-1">
+                                  <i class="fas fa-thumbs-up"></i>
+                                </span>
 
                                 <div class="info-box-content">
-                                    <span class="info-box-text">Likes</span>
-                                    <span class="info-box-number">41,410</span>
+                                    <span class="info-box-text">Avaliações</span>
+                                    <span class="info-box-number">8</span>
                                 </div>
                                 <!-- /.info-box-content -->
                             </div>
@@ -209,11 +221,13 @@
 
                         <div class="col-12 col-sm-6 col-md-3">
                             <div class="info-box mb-3">
-                                <span class="info-box-icon bg-success elevation-1"><i class="fas fa-shopping-cart"></i></span>
+                                <span class="info-box-icon bg-danger elevation-1">
+                                  <i class="fas fa-shopping-cart"></i>
+                                </span>
 
                                 <div class="info-box-content">
-                                    <span class="info-box-text">Sales</span>
-                                    <span class="info-box-number">760</span>
+                                    <span class="info-box-text">Carrinho</span>
+                                    <span class="info-box-number">4</span>
                                 </div>
                                 <!-- /.info-box-content -->
                             </div>
@@ -222,11 +236,13 @@
                         <!-- /.col -->
                         <div class="col-12 col-sm-6 col-md-3">
                             <div class="info-box mb-3">
-                                <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-users"></i></span>
+                                <span class="info-box-icon bg-warning elevation-1">
+                                  <i class="fas fa-address-card"></i>
+                                </span>
 
                                 <div class="info-box-content">
-                                    <span class="info-box-text">New Members</span>
-                                    <span class="info-box-number">2,000</span>
+                                    <span class="info-box-text">Cartão Fidelidade</span>
+                                    <span class="info-box-number">8</span>
                                 </div>
                                 <!-- /.info-box-content -->
                             </div>

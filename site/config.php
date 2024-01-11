@@ -1,6 +1,6 @@
 <?php
 
-$email_adm = "burguerfreitas@gmail.com";
+$email_adm = "admin@email.com";
 $url_site = "http://localhost:8080/";
 
 //Dados para conexão com BD local
